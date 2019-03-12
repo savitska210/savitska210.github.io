@@ -1,0 +1,247 @@
+main{
+margin:0px;
+padding: 0px;
+}
+.b-1{
+	border:1px solid red;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+
+.navbar ul li:hover{
+background-color: #d8ab8b;
+}
+
+
+*{
+font-family: 'Roboto', sans-serif;
+}
+
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  /*
+  .content-middle{
+display: flex;
+justify-content: left;
+align-items: : center;
+  }
+  */
+
+  .header-g{
+  	background-image: url('images/header.jpg');
+  	 height:550px;
+  	 background-repeat: no-repeat;
+  	  background-size: cover; 
+  	  background-position: center center;
+  }
+  /*.g
+  {width:1366px;}*/
+.g1{
+	background-color:#f1e3d1; 
+}
+.g2{
+  background-color:#2a3947; 
+}
+  .form-main{
+  	border:0px;
+  	border-top-left-radius:5px; 
+  	border-top-right-radius:5px;
+  }
+  .form-header{
+  	background-color:#b8b2a7;
+  	}
+  	.input-text{
+  	border-radius:0px;
+  	box-shadow:0px 1px 0px silver;
+  	/*width:100%;*/
+  	}
+  	.form-main{
+  	color: #757575;	
+  	background-color: #f1e3d1;
+  	border-radius:0px 0px 5px 5px;
+  	}
+  	.signin-btn{
+	border-radius:0px 0px 5px 5px; 
+	background-color:#d8ab8b;
+	font-weight: 500;
+	font-size: 1.1em;
+
+  		}
+  	.act1{
+  		background:url("images/icons/noActive1.png");
+  	background-repeat: no-repeat;
+  	height:46px;
+   	}
+  	.act1:hover{
+    background:url('images/icons/Active1.png');
+      	background-repeat: no-repeat;
+
+  	}
+  	.act2{
+  		background:url("images/icons/noActive2.png");
+  	background-repeat: no-repeat;
+  	height:46px;
+   	}
+  	.act2:hover{
+    background:url('images/icons/Active2.png');
+      	background-repeat: no-repeat;
+
+  	}
+  	.act3{
+  		background:url("images/icons/noActive3.png");
+  	background-repeat: no-repeat;
+  	height:46px;
+   	}
+  	.act3:hover{
+    background:url('images/icons/Active3.png');
+      	background-repeat: no-repeat;
+
+  	}
+  	.act4{
+  		background:url("images/icons/noActive4.png");
+  	background-repeat: no-repeat;
+  	height:46px;
+   	}
+  	.act4:hover{
+    background:url('images/icons/Active4.png');
+      	background-repeat: no-repeat;
+
+  	}
+  	.act5{
+  		background:url("images/icons/noActive5.png");
+  	background-repeat: no-repeat;
+  	height:46px;
+   	}
+  	.act5:hover{
+    background:url('images/icons/Active5.png');
+      	background-repeat: no-repeat;
+
+  	}
+  	.act6{
+  		background:url("images/icons/noActive6.png");
+  	background-repeat: no-repeat;
+  	height:46px;
+   	}
+  	.act6:hover{
+    background:url('images/icons/Active6.png');
+      	background-repeat: no-repeat;
+
+  	}
+  	.act7{
+  		background:url("images/icons/noActive7.png");
+  	background-repeat: no-repeat;
+  	height:46px;
+   	}
+  	.act7:hover{
+    background:url('images/icons/Active7.png');
+    background-repeat: no-repeat;
+
+  	}
+
+  	.tabs{
+  background-color:#ffffff;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.tabs .tab-pane{
+  
+}
+
+.tabs h3{
+  font-size:20px;
+  margin-top:10px;
+  margin-bottom:30px;
+  font-weight: 500;
+}
+
+.tabs p{
+  font-size:14px;
+}
+
+.tabs a{
+  font-size:15px;
+  font-weight:400;
+  color:#fff;
+  padding:10px;
+}
+
+.tabs li{
+  background-color:#333;
+  margin-top:1px;
+  text-align:center;
+  height:110px;
+  width:110px;
+  padding-top:45px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+}
+
+.tabs li.active{
+  background-color:#d8ab8b;
+
+}
+
+.img-tab{
+	float:right;
+	/*margin:0px 5px;*/
+	width:25%;
+}
+
+img.cont{
+	border-radius: 5px;
+box-shadow: 1px 1px 10px black;
+
+	/*margin:0px 5px;*/
+	width:100%;
+}
+.h2-p4{
+color:#f1e3d1;
+font-weight: 300;
+}
+.btn-p4{
+  width:50%;
+  border-radius: 0px;
+  background-color: #d8ab8b;
+  color:#ffffff;
+}
+.h2-p5{
+color:#0f1f2d;
+font-weight: 300;
+text-align: center;
+}
+.h5-p5{
+  text-align: center;
+  color:#2a3947;
+}
+
+.btn-p5{
+  width:20%;
+  border-radius: 0px;
+  background-color: #402720;
+  color:#ffffff;
+}
